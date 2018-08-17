@@ -1,0 +1,28 @@
+{
+  "name": "postcss-progress",
+  "version": "0.0.0",
+  "description": "Print the current files being processed, time taken, and when a file is written during postcss.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "vjsstandard",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonocasey/postcss-progress"
+  },
+  "author": "Brandon Casey <videojs@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/brandonocasey/postcss-progress/issues"
+  },
+  "homepage": "https://github.com/brandonocasey/postcss-progress",
+  "dependencies": {
+    "postcss": "^7.0.2",
+    "turbocolor": "^2.4.5"
+  },
+  "devDependencies": {
+    "videojs-standard": "^6.0.4"
+  }
+}
