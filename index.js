@@ -15,6 +15,7 @@ const start = postcss.plugin('postcss-progress-start', function(opts) {
     const relativeFrom = getRelative(results.opts.from);
     const relativeTo = getRelative(results.opts.to);
 
+    console.log();
     console.log(tc.cyan(`${tc.bold(relativeFrom)} → ${tc.bold(relativeTo)}...`));
     results.startTime = getNow();
   };
@@ -32,6 +33,7 @@ const stop = postcss.plugin('postcss-progress-stop', function(opts) {
     const timeTaken = getNow() - results.startTime;
 
     console.log(tc.green(`created ${tc.bold(relativeTo)} in ${tc.bold(`${timeTaken}ms`)}`));
+    console.log();
   };
 });
 
