@@ -22,4 +22,5 @@ logs
 npm-debug.log*
 
 # Dependency directories
+.eslintcache
 node_modules/

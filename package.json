@@ -23,6 +23,6 @@
     "turbocolor": "^2.4.5"
   },
   "devDependencies": {
-    "videojs-standard": "^6.0.4"
+    "videojs-standard": "^7.0.0"
   }
 }
