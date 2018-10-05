@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 const path = require('path');
 const postcss = require('postcss');
-const tc = require('turbocolor');
+const tc = require('colorette');
 const getNow = () => Date.now();
 
 const getRelative = (p) => path.relative(process.cwd(), p);
