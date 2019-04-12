@@ -1,5 +1,7 @@
 # postcss-progress
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/brandonocasey/postcss-progress.svg)](https://greenkeeper.io/)
+
 Print the current files being processed, time taken, and when a file is written during postcss.
 
 ## Installation
