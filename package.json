@@ -19,7 +19,7 @@
   "homepage": "https://github.com/brandonocasey/postcss-progress",
   "dependencies": {
     "colorette": "^1.0.7",
-    "postcss": "^7.0.11"
+    "postcss": "7.0.19"
   },
   "scripts": {
     "lint": "vjsstandard",
